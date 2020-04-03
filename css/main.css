@@ -1,0 +1,276 @@
+
+/*========== copied from project website */
+/*========overall site=========*/
+*{
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	background-color: #509695;
+}
+body{
+	background-color: #509695;
+}
+/*========site navigation=========*/
+div.container{
+	background-color: #509695;
+	margin: none;
+	width: 100%;
+}
+div.nav{
+	border: solid;
+	border-color: #EB823B;
+	color: white;
+}
+div.nav h3{
+	padding-top: 0;
+	color: #EB823B;
+}
+div.Home{
+	position: relative;
+	padding: 3%;
+	padding-top: 10%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+div.Members{
+	position: relative;
+	padding: 3%;
+	padding-top: 10%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+div.Events{
+	position: relative;
+	padding: 3%;
+	padding-top: 10%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+div.Archives{
+	position: relative;
+	padding: 3%;
+	padding-top: 10%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+div.nav h2.link{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding-top: 5%;
+}
+div.nav a{
+	position: absolute;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 0%;
+	padding-bottom: 0%;
+}
+div.nav a p{
+	margin-bottom: 10%;
+	padding: 0;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+div a:hover {
+	background-color: #EB823B;
+}
+div.bar{
+	margin: 0;
+	padding-top: 2%;
+}
+div.form{
+	margin-top: 3%;
+}
+div.c{
+	margin-top: 3%;
+}
+div.text{
+	margin-top: 3%;
+	margin-left: 0;
+}
+/*========content=========*/
+h2{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+h3{
+	padding: none;
+	margin: none;
+	text-align: center;
+	color: white;
+}
+p.home {
+	margin-top: 3%;
+	padding: 3%;
+	border: solid;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+p.des {
+	margin-top: 3%;
+	padding: 3%;
+	border: solid;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+ul.locations{
+	margin-top: 3%;
+	padding: 3%;
+	border: solid;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+p.list{
+	text-decoration: underline;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+/*standard for every page*/
+img.banner{
+	margin-top: 5%;
+	width: 100%;
+	border: solid;
+}
+p.contact{
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+} 
+p.contact a{
+	text-decoration: none;
+	color: #000000;	
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+p.contact a:hover{
+	background-color: #ffffff;
+	color: blue;	
+	text-decoration: underline;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+p.contact {
+	margin-top: 3%;
+	padding: 3%;
+	border: solid;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+/*table on candidates*/
+div.table{
+	margin: 0;
+	padding: 0%;
+}
+div.candidates{
+	position: relative;
+	padding: 3%;
+	padding-top: 0%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+div.position{
+	position: relative;
+	padding: 3%;
+	padding-top: 0%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+div.classification{
+	position: relative;
+	padding: 3%;
+	padding-top: 0%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+p.table{
+	margin-top: 3%;
+	padding: 2%;
+	border: solid;
+	border-color: #EB823B;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+/*platforms*/
+ul{
+	margin-top: 3%;
+	padding-left: 6%;
+	padding-right: 2%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border: solid;
+	border-color: #EB823B;
+	border-width: 10px;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	list-style-type: disc;
+}
+li{
+	padding-bottom: 2%;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: left;
+}
+/*links*/
+a.list{
+	text-decoration: none;
+	color: #000000;	
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+a.list a:hover{
+	background-color: #ffffff;
+	color: blue;	
+	text-decoration: underline;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+/*Footer*/
+footer{
+	background-color: #000000;
+	display: block;
+}
+footer p.foot{
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+	border: solid;
+	border-color: #EB823B;
+	padding: 1%;
+	margin-bottom: 0;
+}
+footer p.foot a{
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+}
+footer p.foot a:hover{
+	color: blue;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
